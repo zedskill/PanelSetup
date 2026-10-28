@@ -78,13 +78,18 @@ Credentials are printed at the end and stored in `/root/*-credentials.txt` (`chm
 
 **PasarGuard** — official panel + local node, inbound set, hosts, default group.
 
-```bash
-# IP
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/PasarSetup/install.sh)"
+**IP**
 
-# Domain
+```bash
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/PasarSetup/install.sh)"
+```
+
+**Domain**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/PasarSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -94,11 +99,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Marzban** — Docker Compose, admin account, Nginx, inbound set.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/MarzSetup/install.sh)"
+```
 
+**Domain**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/MarzSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -108,11 +120,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Rebecca** — official binary, SQLite, local node, admin, inbound set.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RebecSetup/install.sh)"
+```
 
+**Domain**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RebecSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -122,11 +141,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Remnawave** — official production compose, local node, inbound set.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RemnaSetup/install.sh)"
+```
 
+**Domain**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RemnaSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -136,11 +162,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **3x-ui** — official installer, SQLite, inbound set, client `default`.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/3xuiSetup/install.sh)"
+```
 
+**Domain**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/3xuiSetup/install.sh)"
 ```
+
 
 </td>
 </tr>

@@ -74,10 +74,18 @@ TCP **443** با SNI جدا می‌شود: نام میزبان پنل در Nginx
 
 **PasarGuard** — پنل رسمی + نود محلی، inbound، host.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/PasarSetup/install.sh)"
+```
+
+**دامنه**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/PasarSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -87,10 +95,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Marzban** — Docker Compose، حساب مدیر، Nginx، inbound.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/MarzSetup/install.sh)"
+```
+
+**دامنه**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/MarzSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -100,10 +116,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Rebecca** — باینری رسمی، SQLite، نود محلی، مدیر، inbound.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RebecSetup/install.sh)"
+```
+
+**دامنه**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RebecSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -113,10 +137,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Remnawave** — compose تولیدی رسمی، نود محلی، inbound.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RemnaSetup/install.sh)"
+```
+
+**دامنه**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RemnaSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -126,10 +158,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **3x-ui** — نصب‌کننده رسمی، SQLite، inbound، کلاینت `default`.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/3xuiSetup/install.sh)"
+```
+
+**دامنه**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/3xuiSetup/install.sh)"
 ```
+
 
 </td>
 </tr>

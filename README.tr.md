@@ -74,10 +74,18 @@ Kimlik bilgileri kurulum sonunda yazdırılır ve `/root/*-credentials.txt` dosy
 
 **PasarGuard** — resmi panel + yerel düğüm, inbound, host.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/PasarSetup/install.sh)"
+```
+
+**Alan adı**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/PasarSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -87,10 +95,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Marzban** — Docker Compose, yönetici hesabı, Nginx, inbound.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/MarzSetup/install.sh)"
+```
+
+**Alan adı**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/MarzSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -100,10 +116,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Rebecca** — resmi ikili, SQLite, yerel düğüm, yönetici, inbound.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RebecSetup/install.sh)"
+```
+
+**Alan adı**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RebecSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -113,10 +137,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Remnawave** — resmi üretim compose, yerel düğüm, inbound.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RemnaSetup/install.sh)"
+```
+
+**Alan adı**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RemnaSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -126,10 +158,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **3x-ui** — resmi kurulum, SQLite, inbound, `default` istemci.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/3xuiSetup/install.sh)"
+```
+
+**Alan adı**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/3xuiSetup/install.sh)"
 ```
+
 
 </td>
 </tr>

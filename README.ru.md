@@ -74,10 +74,18 @@ TCP **443** разделяется по SNI: имя панели — Nginx TLS; 
 
 **PasarGuard** — официальная панель + локальная нода, inbound, hosts.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/PasarSetup/install.sh)"
+```
+
+**Домен**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/PasarSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -87,10 +95,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Marzban** — Docker Compose, админ, Nginx, inbound.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/MarzSetup/install.sh)"
+```
+
+**Домен**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/MarzSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -100,10 +116,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Rebecca** — официальный binary, SQLite, локальная нода, админ, inbound.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RebecSetup/install.sh)"
+```
+
+**Домен**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RebecSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -113,10 +137,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **Remnawave** — официальный production compose, локальная нода, inbound.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RemnaSetup/install.sh)"
+```
+
+**Домен**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/RemnaSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
@@ -126,10 +158,18 @@ DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercon
 
 **3x-ui** — официальный установщик, SQLite, inbound, клиент `default`.
 
+**IP**
+
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/3xuiSetup/install.sh)"
+```
+
+**Домен**
+
+```bash
 DOMAIN=panel.example.com sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/zedskill/PanelSetup/main/3xuiSetup/install.sh)"
 ```
+
 
 </td>
 </tr>
